@@ -1,0 +1,11 @@
+.idea
+*.iml
+.vscode
+.project
+.classpath
+.history
+.settings
+.deploy
+venv
+charts/**/charts
+.cr-*
