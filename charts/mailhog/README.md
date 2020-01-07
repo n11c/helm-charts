@@ -5,7 +5,7 @@
 ## TL;DR;
 
 ```bash
-$ helm install stable/mailhog
+$ helm install mailhog n11c/mailhog
 ```
 
 ## Introduction
@@ -22,7 +22,7 @@ cluster using the [Helm](https://helm.sh) package manager.
 To install the chart with the release name `my-release`:
 
 ```bash
-$ helm install --name my-release stable/mailhog
+$ helm install my-release n11c/mailhog
 ```
 
 The command deploys Mailhog on the Kubernetes cluster in the default configuration. The [configuration](#configuration)
@@ -83,7 +83,7 @@ $ helm install --name my-release \
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
 
 ```bash
-$ helm install --name my-release -f values.yaml stable/mailhog
+$ helm install --name my-release -f values.yaml n11c/mailhog
 ```
 
 ## Notes
